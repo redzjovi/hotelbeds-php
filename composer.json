@@ -1,0 +1,24 @@
+{
+    "name": "redzjovi/hotelbeds-php",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.0|^7.0",
+        "symfony/http-foundation": "^3.0|^4.0|^5.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0",
+        "vlucas/phpdotenv": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jovi",
+            "email": "redzjovi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Redzjovi\\HotelbedsPhp\\": "src"
+        }
+    }
+}
