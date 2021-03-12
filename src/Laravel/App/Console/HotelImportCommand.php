@@ -16,6 +16,7 @@ class HotelImportCommand extends Command
         $this->info('Importing HotelbedsPhp Hotel...');
 
         Artisan::call('hotelbeds-php:hotel:language:import');
+        Artisan::call('hotelbeds-php:hotel:accommodation:import');
 
         $this->info('Imported HotelbedsPhp Hotel');
     }

@@ -14,6 +14,8 @@ return [
     ],
     'table_names' => [
         'hotel' => [
+            'accommodation' => 'hotelbeds_hotel_accommodation',
+            'accommodations' => 'hotelbeds_hotel_accommodations',
             'description' => 'hotelbeds_hotel_description',
             'descriptions' => 'hotelbeds_hotel_descriptions',
             'language' => 'hotelbeds_hotel_language',
