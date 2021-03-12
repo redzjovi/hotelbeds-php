@@ -20,5 +20,12 @@
         "psr-4": {
             "Redzjovi\\HotelbedsPhp\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Redzjovi\\HotelbedsPhp\\Laravel\\App\\Providers\\HotelbedsPhpServiceProvider"
+            ]
+        }
     }
 }
