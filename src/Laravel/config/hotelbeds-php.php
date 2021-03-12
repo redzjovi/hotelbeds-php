@@ -16,6 +16,8 @@ return [
         'hotel' => [
             'accommodation' => 'hotelbeds_hotel_accommodation',
             'accommodations' => 'hotelbeds_hotel_accommodations',
+            'board' => 'hotelbeds_hotel_board',
+            'boards' => 'hotelbeds_hotel_boards',
             'description' => 'hotelbeds_hotel_description',
             'descriptions' => 'hotelbeds_hotel_descriptions',
             'language' => 'hotelbeds_hotel_language',
